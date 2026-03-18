@@ -616,3 +616,28 @@ p {
         font-size: 1.1rem;
     }
 }
+.hero,
+.hero h1,
+.hero p {
+    color: #ffffff !important;
+}
+
+.hero p {
+    color: #e0e7ff !important;
+    opacity: 1 !important;
+}
+
+.cta {
+    background: #0f172a !important;  /* тёмный фон */
+    color: #ffffff !important;
+}
+
+.cta h2,
+.cta p,
+.cta .btn {
+    color: #ffffff !important;
+}
+
+.cta h2 {
+    color: #ffffff !important;
+}
