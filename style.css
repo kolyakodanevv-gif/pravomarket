@@ -573,3 +573,46 @@ p {
     .page-header h1 { font-size: 2rem; }
     .contact-info ul { font-size: 1rem; }
 }
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 20px 60px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;          /* было 2rem → чуть крупнее */
+        line-height: 1.2;
+        margin-bottom: 1.2rem;
+    }
+    
+    .hero p {
+        font-size: 1.15rem;
+        line-height: 1.55;
+        max-width: 90%;
+    }
+    
+    .btn {
+        padding: 12px 28px;
+        font-size: 1rem;
+    }
+    
+    h2 {
+        font-size: 1.9rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .container {
+        padding: 0 16px;
+    }
+    
+    .nav a {
+        font-size: 1.1rem;
+    }
+}
